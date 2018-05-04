@@ -1,0 +1,5 @@
+https://platzi.com/blog/que-es-kotlin/
+https://www.netguru.co/blog/10-android-apps-written-in-kotlin
+https://androidstudiofaqs.com/tutoriales/mejorar-rendimiento-android-studio
+https://kotlinlang.org/docs/reference/basic-syntax.html
+http://www.jtech.ua.es/dadm/restringido/android/sesion02-apuntes.html
