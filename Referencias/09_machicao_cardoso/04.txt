@@ -1,0 +1,6 @@
+1. https://es.wikipedia.org/wiki/Kotlin_(lenguaje_de_programaci%C3%B3n)
+2. https://www.netguru.co/blog/10-android-apps-written-in-kotlin
+3. https://stackoverflow.com/questions/16260028/whats-the-difference-between-activity-and-intent-in-android
+4. https://stackoverflow.com/questions/30817871/android-studio-is-slow-how-to-speed-up
+5. https://en.wikipedia.org/wiki/Kotlin_(programming_language)#Syntax
+

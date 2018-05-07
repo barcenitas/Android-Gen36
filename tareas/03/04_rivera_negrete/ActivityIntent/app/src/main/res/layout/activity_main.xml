@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#17EEE8"
+    >
+
+    <TextView
+        android:id="@+id/txtgoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ve al sitio de google"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#030101"
+        />
+
+    <TextView
+        android:id="@+id/txtsorp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descubre una sorpresa"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/txtgoo"
+        android:textColor="#030101"
+        />
+
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        />
+    <ImageView
+        android:id="@+id/googleimg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/google"
+        />
+
+    <ImageView
+        android:id="@+id/sorp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="235dp"
+        android:layout_below="@+id/activity"
+        android:src="@drawable/sorpresa"
+        />
+
+    <Button
+        android:id="@+id/activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actividad"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txtsorp"
+        android:layout_toRightOf="@+id/google"
+        />
+
+</RelativeLayout>

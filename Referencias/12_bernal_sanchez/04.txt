@@ -1,0 +1,7 @@
+Referencias - Tarea 04
+
+- Para los conceptos y sintaxis de Kotlin use una app que descargué del play store: Kotlin Android.
+
+- Para la comparación de activity e Inten, la definición fue propia.
+
+- Para las 10 apps en Kotlin: https://www.netguru.co/blog/10-android-apps-written-in-kotlin

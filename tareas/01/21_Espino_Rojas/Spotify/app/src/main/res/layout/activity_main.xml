@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tiemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tiemp1"
+        android:layout_marginEnd="27dp"
+        android:text="4.15"
+        android:textAlignment="center"
+        android:textColor="	#FFFFFF" />
+
+    <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="21dp"
+            android:src="@android:drawable/ic_delete"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/titu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="	#FFFFFF"
+            android:text="Playing From Playlist\nGreenday Hollyday"
+            android:textAlignment="center"
+            android:layout_alignRight="@+id/Hamburgueza"
+            android:layout_alignLeft="@+id/imagen"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/Hamburgueza"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+
+            android:src="@drawable/ham"
+            />
+
+    <ImageView
+        android:layout_below="@id/titu"
+        android:id="@+id/Principal"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="imagen"
+
+        android:src="@drawable/holliday" />
+
+
+            <ImageView
+                android:id="@+id/mas"
+                android:layout_below="@+id/Principal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="21dp"
+                android:src="@android:drawable/ic_input_add"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:layout_below="@+id/Principal"
+                android:id="@+id/titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="AmericanIdiot/Green Day Hollyday"
+                android:textColor="	#FFFFFF"
+                android:textAlignment="center"
+                android:layout_alignRight="@+id/TresP"
+                android:layout_alignLeft="@+id/mas"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                />
+            <ImageView
+                android:layout_below="@+id/Principal"
+                android:layout_alignParentRight="true"
+                android:id="@+id/TresP"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/3puntos"
+                />
+    <TextView
+        android:id="@+id/tiemp1"
+        android:layout_below="@+id/mas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="2.00"
+        android:textColor="	#FFFFFF"
+        android:textAlignment="center"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="80dp"
+        />
+
+    <ImageView
+        android:id="@+id/Progreso"
+        android:layout_width="190dp"
+        android:layout_height="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:src="@drawable/bar" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/play" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_toEndOf="@+id/imagen"
+        android:src="@drawable/anterior" />
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+
+        android:layout_alignEnd="@+id/tiemp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/next" />
+
+
+
+
+</>

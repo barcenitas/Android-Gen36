@@ -1,0 +1,5 @@
+1. https://platzi.com/blog/que-es-kotlin/
+2. https://www.netguru.co/blog/10-android-apps-written-in-kotlin
+3. https://stackoverflow.com/questions/16260028/whats-the-difference-between-activity-and-intent-in-android
+4. https://androidstudiofaqs.com/tutoriales/mejorar-rendimiento-android-studio
+5.https://kotlinlang.org/docs/reference/basic-syntax.html

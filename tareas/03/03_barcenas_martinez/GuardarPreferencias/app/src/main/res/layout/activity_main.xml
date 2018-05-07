@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FDE519"
+    android:id="@+id/colorado"
+    >
+
+
+    <TextView
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLOR"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:textColor="#EB0E00"
+        />
+
+    <Button
+        android:id="@+id/morado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="200dp"
+        android:text="Morado"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="186dp"
+        android:onClick="cambiarMorado"
+        android:background="#9333FF"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:id="@+id/azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:text="Azul"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="186dp"
+        android:onClick="cambiarAzul"
+        android:background="#1961FD"
+        android:textColor="#fff"
+        />
+
+</RelativeLayout>

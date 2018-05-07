@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/arriba"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000000"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ham"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:id="@+id/medio"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/imagine"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Imagine Dragons"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:text="Follow"
+                android:layout_marginTop="4dp"
+                android:textColor="#fff"
+                android:background="#414141"
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Shuffle Play"
+                android:textColor="#fff"
+                android:background="#00ae0c"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="0dp" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:src="@drawable/as" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/abajo"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000000"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAST RELEASE"
+            android:textColor="#fff"/>
+
+        <LinearLayout
+            android:id="@+id/release"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mini"
+            />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Today (From Me Before You)"
+                    android:textSize="12dp"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 SONG -APRIL 2013"
+                    android:textSize="10dp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:src="@drawable/as"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

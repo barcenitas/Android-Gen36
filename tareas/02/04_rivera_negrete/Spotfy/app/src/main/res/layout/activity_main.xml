@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#292323"
+    >
+
+    <TextView
+        android:id="@+id/textoPlaylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC/DC"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginTop="28dp"
+        />
+
+    <ImageView
+        android:id="@+id/iconoPlaylist"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/dots"
+        android:layout_toRightOf="@+id/textoPlaylist"
+        android:layout_marginLeft="94dp"
+        />
+
+    <ImageView
+        android:id="@+id/album"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/textoPlaylist"
+        android:src="@drawable/acdc"
+        />
+
+    <TextView
+        android:id="@+id/TextoCancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hells Bells"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/album"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/cantante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AC/DC"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:layout_below="@+id/TextoCancion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        />
+
+    <ImageView
+        android:id="@+id/cora"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/corazon"
+        android:layout_toLeftOf="@+id/TextoCancion"
+        android:layout_marginTop="347dp"
+        android:layout_marginRight="75dp"
+        />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/cancelar"
+        android:layout_toRightOf="@+id/TextoCancion"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="75dp"
+        />
+
+    <TextView
+        android:id="@+id/reproduciendo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00 -----------------------------------  5:12"
+        android:textColor="#fff"
+        android:textSize="22dp"
+        android:layout_below="@+id/cantante"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/shuffle"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/shuffle"
+        android:layout_below="@+id/reproduciendo"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/before"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/before"
+        android:layout_below="@+id/reproduciendo"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="11dp"
+        />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/play"
+        android:layout_below="@+id/reproduciendo"
+        android:layout_marginLeft="165dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/next"
+        android:layout_below="@+id/reproduciendo"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <ImageView
+        android:id="@+id/repeat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/repeat"
+        android:layout_below="@+id/reproduciendo"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="15dp"
+        />
+
+
+</RelativeLayout>

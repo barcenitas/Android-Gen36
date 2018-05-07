@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/imagenalbum"
+        android:layout_width="193dp"
+        android:layout_height="244dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/album" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_play_circle_outline_white_24dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/play"
+        android:layout_marginEnd="68dp"
+        android:src="@mipmap/ic_skip_next_white_24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:scaleX="2"
+        android:scaleY="2"
+        />
+
+    <ImageButton
+        android:id="@+id/previos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/play"
+        android:layout_marginStart="73dp"
+        android:src="@mipmap/ic_skip_previous_white_24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:scaleX="2"
+        android:scaleY="2"
+        />
+
+    <ImageButton
+        android:id="@+id/mas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="173dp"
+        android:layout_marginEnd="-73dp"
+        android:layout_toStartOf="@+id/previos"
+        android:src="@mipmap/ic_control_point_white_24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        />
+
+    <TextView
+        android:id="@+id/Nombrecancion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mas"
+        android:layout_centerHorizontal="true"
+        android:text="NombreCancion"
+        android:textColor="#FFFF"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:id="@+id/cantante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mas"
+        android:layout_centerHorizontal="true"
+        android:text="Cantante"
+        android:textColor="#FFFF" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_dehaze_white_24dp"
+        android:backgroundTint="@color/colorAccent"
+        android:scaleX="1"
+        android:scaleY="1.5"
+        />
+
+    <TextView
+        android:id="@+id/inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fin"
+        android:layout_toStartOf="@+id/imagenalbum"
+        android:text="0:00"
+        android:textColor="#FFFF" />
+
+    <TextView
+        android:id="@+id/fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/next"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="139dp"
+        android:text="0:00"
+        android:textColor="#FFFF" />
+
+    <TextView
+        android:id="@+id/barrasuperior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Nombres"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/dispositivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="DISPOSITIVOS DISPONIBLES"
+        android:textColor="#FFF"
+        android:textSize="15sp" />
+</RelativeLayout>
