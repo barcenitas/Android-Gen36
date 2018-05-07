@@ -16,6 +16,7 @@
             android:layout_height="150dp"
             android:layout_margin="20dp"
             android:src="@mipmap/ic_launcher"
+            android:id="@+id/imgSeleccionada"
             />
 
         <LinearLayout
